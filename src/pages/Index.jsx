@@ -30,6 +30,24 @@ const Index = () => {
           </VStack>
         </Container>
       </Box>
+      <Box width="100%" py={20} bg="gray.50">
+        <Container centerContent maxW="container.md">
+          <VStack spacing={6}>
+            <Heading as="h2" size="xl" textAlign="center">
+              Discover More Scenic Routes
+            </Heading>
+            <Text fontSize="lg" textAlign="center">
+              Dive deeper into the beauty of the world's most scenic roads. Whether you're looking for mountain adventures or coastal drives, we've got you covered.
+            </Text>
+            <Box boxSize="sm">
+              <Image src="/images/realistic-road-1.jpg" alt="Scenic Road with Mountains" borderRadius="md" />
+            </Box>
+            <Box boxSize="sm">
+              <Image src="/images/realistic-road-2.jpg" alt="Coastal Highway" borderRadius="md" />
+            </Box>
+          </VStack>
+        </Container>
+      </Box>
     </Container>
   );
 };
