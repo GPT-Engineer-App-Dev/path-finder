@@ -18,6 +18,18 @@ const Index = () => {
           Explore Now
         </Button>
       </VStack>
+      <Box width="100%" bgImage="url('/images/background.jpg')" bgSize="cover" bgPosition="center" py={20}>
+        <Container centerContent maxW="container.md">
+          <VStack spacing={6} color="white">
+            <Heading as="h2" size="xl" textAlign="center">
+              More Information
+            </Heading>
+            <Text fontSize="lg" textAlign="center">
+              Explore the beauty of the world's most scenic roads. From winding mountain passes to coastal highways, discover routes that offer breathtaking views and unforgettable experiences.
+            </Text>
+          </VStack>
+        </Container>
+      </Box>
     </Container>
   );
 };
