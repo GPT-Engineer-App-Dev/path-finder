@@ -48,6 +48,24 @@ const Index = () => {
           </VStack>
         </Container>
       </Box>
+      <Box width="100%" py={20} bg="white">
+        <Container centerContent maxW="container.md">
+          <VStack spacing={6}>
+            <Heading as="h2" size="xl" textAlign="center">
+              Roads on Hills
+            </Heading>
+            <Text fontSize="lg" textAlign="center">
+              Discover the beauty of roads winding through hilly terrains. From lush green hills to stunning sunsets, these roads offer breathtaking views and unforgettable experiences.
+            </Text>
+            <Box boxSize="sm">
+              <Image src="/images/hill-road-1.jpg" alt="Scenic Road on Hill" borderRadius="md" />
+            </Box>
+            <Box boxSize="sm">
+              <Image src="/images/hill-road-2.jpg" alt="Road on Hill with Sunset" borderRadius="md" />
+            </Box>
+          </VStack>
+        </Container>
+      </Box>
     </Container>
   );
 };
